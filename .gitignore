@@ -1,0 +1,43 @@
+# Virtual environment
+/venv/
+/env/
+/.venv/
+/.env/
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Development-specific settings
+/settings/local.py
+/settings/dev.py
+/settings/*.secret
+
+# Logs and temporary files
+/logs/
+/tmp/
+
+# SQLite database
+db.sqlite3
+
+# Django collected static files
+/staticfiles/
+
+# User-uploaded media
+/media/
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependency files
+/requirements.txt
+/Pipfile.lock
+/poetry.lock
+
+# Miscellaneous
+.DS_Store
+.cache/
+.pytest_cache/
